@@ -4,7 +4,7 @@ folium
 gspread
 gspread_dataframe
 matplotlib
-numpy<2.0
+numpy
 oauth2client
 pandas
 plotly
