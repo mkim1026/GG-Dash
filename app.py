@@ -17,6 +17,9 @@ app.layout = create_layout()
 # Register all callbacks
 register_callbacks(app)
 
+# For Render deployment (important)
+server = app.server
+
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
